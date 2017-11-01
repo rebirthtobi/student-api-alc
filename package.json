@@ -1,0 +1,28 @@
+{
+    "name": "student-api",
+    "version": "1.0.0",
+    "description": "an api for student resource management",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "nodemon app.js"
+    },
+    "keywords": [
+        "student",
+        "api",
+        "student-api",
+        "student-resource-api",
+        "student-resource"
+    ],
+    "author": "Tobi Taiwo (rebirthtobi)",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.1",
+        "mongoose": "^4.12.0"
+    },
+    "devDependencies": {
+        "ejs": "^2.5.7",
+        "nodemon": "^1.12.1"
+    }
+}
